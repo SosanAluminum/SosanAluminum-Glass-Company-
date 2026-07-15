@@ -1,0 +1,441 @@
+DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sosan Aluminum & Glass Company</title>
+
+<style>
+
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+font-family:Arial,sans-serif;
+
+}
+
+body{
+
+background:#f8f8f8;
+
+color:#333;
+
+}
+
+header{
+
+background:#0A4A8A;
+
+color:white;
+
+padding:20px 8%;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+position:sticky;
+
+top:0;
+
+}
+
+header h2{
+
+font-size:28px;
+
+}
+
+nav a{
+
+color:white;
+
+text-decoration:none;
+
+margin-left:20px;
+
+font-weight:bold;
+
+}
+
+.hero{
+
+height:90vh;
+
+background:url("images/hero.jpg") center/cover no-repeat;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+color:white;
+
+}
+
+.overlay{
+
+background:rgba(0,0,0,.6);
+
+padding:40px;
+
+border-radius:10px;
+
+}
+
+.hero h1{
+
+font-size:50px;
+
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+margin-bottom:30px;
+
+}
+
+.btn{
+
+background:#00a651;
+
+padding:15px 30px;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:5px;
+
+font-size:18px;
+
+}
+
+section{
+
+padding:70px 8%;
+
+}
+
+.title{
+
+text-align:center;
+
+font-size:36px;
+
+color:#0A4A8A;
+
+margin-bottom:40px;
+
+}
+
+.services{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:20px;
+
+}
+
+.card{
+
+background:white;
+
+padding:30px;
+
+border-radius:10px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+
+text-align:center;
+
+}
+
+.gallery{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:20px;
+
+}
+
+.gallery img{
+
+width:100%;
+
+height:250px;
+
+object-fit:cover;
+
+border-radius:10px;
+
+}
+
+.contact{
+
+background:#0A4A8A;
+
+color:white;
+
+text-align:center;
+
+}
+
+footer{
+
+background:#111;
+
+color:white;
+
+padding:20px;
+
+text-align:center;
+
+}
+
+.whatsapp{
+
+position:fixed;
+
+bottom:20px;
+
+right:20px;
+
+background:#25D366;
+
+color:white;
+
+padding:18px;
+
+border-radius:50%;
+
+font-size:25px;
+
+text-decoration:none;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h2>Sosan Aluminum & Glass</h2>
+
+<nav>
+
+<a href="#">Home</a>
+
+<a href="#about">About</a>
+
+<a href="#services">Services</a>
+
+<a href="#gallery">Gallery</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="overlay">
+
+<h1>Professional Aluminum & Glass Installation</h1>
+
+<p>Quality • Reliability • Modern Designs</p>
+
+<a class="btn"
+
+href="https://wa.me/2347055678780">
+
+Request Free Quote
+
+</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Us</h2>
+
+<p style="font-size:18px;line-height:35px;text-align:center;max-width:900px;margin:auto;">
+
+Sosan Aluminum & Glass Company is a trusted provider of premium aluminum,
+
+glass, stainless steel railings, shower cubicles, office partitions,
+
+balcony railings, frameless doors and custom fabrication.
+
+We provide quality workmanship with affordable prices across Ibadan,
+
+Oyo State and surrounding areas.
+
+</p>
+
+</section>
+
+<section id="services">
+
+<h2 class="title">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+
+<h3>Aluminum Windows</h3>
+
+</div>
+
+<div class="card">
+
+<h3>Aluminum Doors</h3>
+
+</div>
+
+<div class="card">
+
+<h3>Glass Railings</h3>
+
+</div>
+
+<div class="card">
+
+<h3>Shower Cubicles</h3>
+
+</div>
+
+<div class="card">
+
+<h3>Office Partitions</h3>
+
+</div>
+
+<div class="card">
+
+<h3>Stainless Railings</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2 class="title">Our Projects</h2>
+
+<div class="gallery">
+
+<img src="images/project1.jpg">
+
+<img src="images/project2.jpg">
+
+<img src="images/project3.jpg">
+
+<img src="images/project4.jpg">
+
+<img src="images/project5.jpg">
+
+<img src="images/project6.jpg">
+
+<img src="images/project7.jpg">
+
+<img src="images/project8.jpg">
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2 class="title" style="color:white;">Contact Us</h2>
+
+<p>
+
+<b>Address</b><br>
+
+Gbopa Ologuneru Road<br>
+
+Ibadan, Oyo State
+
+</p>
+
+<br>
+
+<p>
+
+<b>Phone</b><br>
+
+07044167044
+
+</p>
+
+<br>
+
+<p>
+
+<b>WhatsApp</b><br>
+
+07055687980
+
+</p>
+
+<br>
+
+<p>
+
+<b>Email</b><br>
+
+Shosanoluwagbenga@gmail.com
+
+</p>
+
+</section>
+
+<footer>
+
+© 2026 Sosan Aluminum & Glass Company
+
+</footer>
+
+<a class="whatsapp"
+
+href="https://wa.me/2347055678780">
+
+💬
+
+</a>
+
+</body>
+
+</html>
